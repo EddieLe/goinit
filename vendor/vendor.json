@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "srVltClYLpJmCjnwaXmcFgiGuHQ=",
+			"path": "github.com/mikemintang/go-curl",
+			"revision": "fabfc3d8173c4d2628e0463cd511b1d6f775c35a",
+			"revisionTime": "2018-09-29T06:55:15Z"
+		},
+		{
+			"checksumSHA1": "AB/VGCv0NIjGYZXhJUBSbVIsOJw=",
+			"path": "github.com/spf13/viper",
+			"revision": "8dc2790b029dc41e2b8ff772c63c26adbb1db70d",
+			"revisionTime": "2018-03-22T07:00:28Z"
+		}
+	],
+	"rootPath": "init"
+}
