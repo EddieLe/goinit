@@ -5,7 +5,7 @@ game 登入 取gameToken
 paltformAdmin 登入 取platformAdminToken
 
 ```
-建立gameAdmin帳號 商代:BBGA usernaem : sky 密碼:54321 group:gameAdmin
+建立gameAdmin帳號 商代:BBGA usernaem : gameAdmin 密碼:54321 group:gameAdmin
 ```
 go run main.go -systemToken=93DEAD123EE
 
@@ -17,7 +17,7 @@ go run main.go -gameAdminToken=93DEAD123EE -groupID=888
 
 
 ```
-建立platformAdmin帳號 商代:BBPL usernaem : skr 密碼:54321 group:platformAdmin
+建立platformAdmin帳號 商代:BBPL usernaem : platformAdmin 密碼:54321 group:platformAdmin
 ```
 go run main.go -gameToken=93DEAD123EE
 
