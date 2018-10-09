@@ -117,7 +117,7 @@ func addGameAdminUser(token string) {
 	}
 
 	postData := map[string]interface{}{
-		"username":          "sky",
+		"username":          "gameAdmin",
 		"password":          "54321",
 		"businessCode":      "BBGA",
 		"currency":          "TWD",
@@ -179,7 +179,7 @@ func addPlatformAdminUser(token string) {
 		"validity_token": token,
 	}
 	postData := map[string]interface{}{
-		"username":          "skr",
+		"username":          "platformAdmin",
 		"password":          "54321",
 		"businessCode":      "BBPL",
 		"gameManagerID":     123,
