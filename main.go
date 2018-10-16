@@ -119,9 +119,9 @@ func addGameAdminUser(token string) {
 	postData := map[string]interface{}{
 		"username":          "gameAdmin",
 		"password":          "54321",
-		"businessCode":      "BBGA",
-		"currency":          "TWD",
-		"availableCurrency": []string{"TWD", "USD"},
+		"businessCode":      "INRD2",
+		"currency":          "CNY",
+		"availableCurrency": []string{"CNY", "USD"},
 		"timezone":          "zh-TW",
 	}
 	req := curl.NewRequest()
@@ -181,10 +181,10 @@ func addPlatformAdminUser(token string) {
 	postData := map[string]interface{}{
 		"username":          "platformAdmin",
 		"password":          "54321",
-		"businessCode":      "BBPL",
-		"gameManagerID":     123,
-		"currency":          "TWD",
-		"availableCurrency": []string{"TWD", "USD"},
+		"businessCode":      "BBOS",
+		"gameManagerID":     1,
+		"currency":          "CNY",
+		"availableCurrency": []string{"CNY", "USD"},
 		"timezone":          "zh-TW",
 		"lobbyDomain":       "1",
 	}
