@@ -122,7 +122,7 @@ func addGameAdminUser(token string) {
 		"businessCode":      "INRD2",
 		"currency":          "CNY",
 		"availableCurrency": []string{"CNY", "USD"},
-		"timezone":          "zh-TW",
+		"timezone":          "-4",
 	}
 	req := curl.NewRequest()
 	resp, err := req.
@@ -185,7 +185,7 @@ func addPlatformAdminUser(token string) {
 		"gameManagerID":     1,
 		"currency":          "CNY",
 		"availableCurrency": []string{"CNY", "USD"},
-		"timezone":          "zh-TW",
+		"timezone":          "-4",
 		"lobbyDomain":       "1",
 	}
 	req := curl.NewRequest()
