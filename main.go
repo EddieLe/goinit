@@ -12,7 +12,7 @@ import (
 
 var defaultYaml = []byte(`
 	SERVER_HOST: "http://127.0.0.1"
-	SERVER_PORT: ":8888"
+	SERVER_PORT: ":7788"
 	`)
 
 func main() {
@@ -68,23 +68,13 @@ func main() {
 		"cooper",
 		"james",
 		"edwin",
-		"cchang",
+		"cc",
 		"beckham",
 		"ken",
 		"chiawen",
 		"miya",
 		"sean",
 		"linyen",
-		"front1",
-		"front2",
-		"front3",
-		"front4",
-		"front5",
-		"front6",
-		"front7",
-		"front8",
-		"front9",
-		"front0",
 		"leo",
 		"shawn",
 		"tony",
@@ -92,7 +82,32 @@ func main() {
 		"jennifer",
 		"rain",
 		"jim",
-		"eddielee"}
+		"skr",
+		"ching",
+		"mcdtest",
+		"jessica",
+		"spike",
+		"hannah",
+		"angel",
+		"afra",
+		"claire",
+		"xinlia",
+		"dora",
+		"toby",
+		"amber",
+		"huck",
+		"apple",
+		"3c",
+		"kaze",
+		"stan",
+		"ed",
+		"jyunyan",
+		"aaron",
+		"jimmy",
+		"karen",
+		"gmtest1",
+		"gmtest2",
+		"gmtest3"}
 
 	if systemToken != "" {
 		addGameAdminUser(systemToken)
